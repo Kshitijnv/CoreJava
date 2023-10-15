@@ -11,6 +11,7 @@ public class TestSpeed {
 	public static void main(String[] args) {
 
 		try (Scanner sc = new Scanner(System.in)) {
+System.out.println("Welcome to traffic management system");
 			System.out.println("Enter the current speed: ");
 			VehicleValidationRules.validateVehicle(sc.nextInt());
 			
