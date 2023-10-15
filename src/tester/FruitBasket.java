@@ -10,6 +10,7 @@ public class FruitBasket {
 			Fruit f[] = new Fruit[sc.nextInt()];
 			int key, count = 0;
 			do {
+				System.out.println("#####WELCOME#####");
 				System.out.println(
 						"Choose a fruit"
 						+ "\n1)Add Apple 2)Add Mango 3)Add Orange "
