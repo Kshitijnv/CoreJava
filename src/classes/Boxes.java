@@ -1,11 +1,11 @@
 package classes;
 
-public class boxes {
+public class Boxes {
 	private int width;
 	private int height;
 	private int depth;
 	//public parameterized ctor 
-	public boxes(int width,int height,int depth) {
+	public Boxes(int width,int height,int depth) {
 		this.width=width;
 		this.height=height;
 		this.depth=depth;
